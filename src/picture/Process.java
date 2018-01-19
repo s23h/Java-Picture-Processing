@@ -121,7 +121,7 @@ public class Process {
   static int smallestWidth(Picture[] pics) {
     int w = 0;
     for (int i = 0; i < pics.length; i++) {
-      if (pics[i].getWidth() > 0) {
+      if (pics[i].getWidth() > w) {
         w = pics[i].getWidth();
       }
     }
@@ -131,7 +131,7 @@ public class Process {
   static int smallestHeight(Picture[] pics) {
     int h = 0;
     for (int i = 0; i < pics.length; i++) {
-      if (pics[i].getHeight() > 0) {
+      if (pics[i].getHeight() > h) {
         h = pics[i].getHeight();
       }
     }
