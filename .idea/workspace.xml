@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d08e057-adec-40df-bd82-cc7f617f7bf4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/picture/Main.java" afterPath="$PROJECT_DIR$/src/picture/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/picture/Process.java" afterPath="$PROJECT_DIR$/src/picture/Process.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +27,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/picture/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="58" column="39" lean-forward="true" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
+            <state relative-caret-position="300">
+              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -37,8 +37,8 @@
       <file leaf-file-name="Process.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/picture/Process.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="131" column="14" lean-forward="true" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="14" />
+            <state relative-caret-position="573">
+              <caret line="225" column="2" lean-forward="false" selection-start-line="225" selection-start-column="2" selection-end-line="225" selection-end-column="2" />
               <folding>
                 <element signature="e#100#101#0" expanded="true" />
                 <element signature="e#143#144#0" expanded="true" />
@@ -50,9 +50,11 @@
       <file leaf-file-name="TestSuiteHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testsuite/testsuite/TestSuiteHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="370">
+              <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -357,29 +359,11 @@
       <workItem from="1516048476570" duration="7815000" />
       <workItem from="1516111737875" duration="6915000" />
       <workItem from="1516201591396" duration="6041000" />
-      <workItem from="1516372580699" duration="5511000" />
+      <workItem from="1516372580699" duration="7879000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSuite - 2018.01.19 at 15h 03m 40s.xml">
-      <configuration name="TestSuite" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="TestSuite - 2018.01.19 at 15h 05m 29s.xml">
-      <configuration name="TestSuite" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="TestSuite - 2018.01.19 at 15h 06m 26s.xml">
-      <configuration name="TestSuite" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="TestSuite - 2018.01.19 at 15h 07m 17s.xml">
-      <configuration name="TestSuite" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="TestSuite - 2018.01.19 at 15h 08m 26s.xml">
-      <configuration name="TestSuite" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="TestSuite - 2018.01.19 at 15h 11m 04s.xml">
-      <configuration name="TestSuite" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="TestSuite - 2018.01.19 at 15h 21m 13s.xml">
       <configuration name="TestSuite" configurationId="AndroidJUnit" />
     </history-entry>
@@ -392,12 +376,31 @@
     <history-entry file="TestSuite - 2018.01.19 at 15h 50m 07s.xml">
       <configuration name="TestSuite" configurationId="AndroidJUnit" />
     </history-entry>
+    <history-entry file="TestSuite - 2018.01.19 at 18h 09m 29s.xml">
+      <configuration name="TestSuite" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="TestSuite - 2018.01.19 at 18h 13m 42s.xml">
+      <configuration name="TestSuite" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="TestSuite - 2018.01.19 at 18h 24m 47s.xml">
+      <configuration name="TestSuite" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="TestSuite - 2018.01.19 at 18h 28m 36s.xml">
+      <configuration name="TestSuite" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="TestSuite - 2018.01.19 at 18h 31m 45s.xml">
+      <configuration name="TestSuite" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="TestSuite - 2018.01.19 at 18h 45m 46s.xml">
+      <configuration name="TestSuite" configurationId="AndroidJUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26282000" />
+    <option name="totallyTimeSpent" value="28650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -407,9 +410,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43067846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -459,7 +462,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -522,7 +527,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -585,7 +592,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -648,7 +657,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -691,14 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testsuite/testsuite/TestSuiteHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/picture/Color.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -727,18 +730,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testsuite/testsuite/TestSuiteHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/picture/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="58" column="39" lean-forward="true" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
+        <state relative-caret-position="300">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/picture/Process.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="131" column="14" lean-forward="true" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="14" />
+        <state relative-caret-position="573">
+          <caret line="225" column="2" lean-forward="false" selection-start-line="225" selection-start-column="2" selection-end-line="225" selection-end-column="2" />
           <folding>
             <element signature="e#100#101#0" expanded="true" />
             <element signature="e#143#144#0" expanded="true" />

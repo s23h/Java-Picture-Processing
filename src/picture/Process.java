@@ -119,9 +119,9 @@ public class Process {
   }
 
   static int smallestWidth(Picture[] pics) {
-    int w = 0;
-    for (int i = 0; i < pics.length; i++) {
-      if (pics[i].getWidth() > w) {
+    int w = pics[0].getWidth();
+    for (int i = 1; i < pics.length; i++) {
+      if (pics[i].getWidth() < w) {
         w = pics[i].getWidth();
       }
     }
@@ -129,9 +129,9 @@ public class Process {
   }
 
   static int smallestHeight(Picture[] pics) {
-    int h = 0;
-    for (int i = 0; i < pics.length; i++) {
-      if (pics[i].getHeight() > h) {
+    int h = pics[0].getHeight();
+    for (int i = 1; i < pics.length; i++) {
+      if (pics[i].getHeight() < h) {
         h = pics[i].getHeight();
       }
     }
@@ -204,18 +204,18 @@ public class Process {
   }
 
   static void fade(Picture[] pics, float weight) {
-    int w = smallestWidth(pics)  ;
-    int h = smallestHeight(pics) ;
+    int w = smallestWidth(pics);
+    int h = smallestHeight(pics);
     Picture out = Utils.createPicture(w, h);
-    for (int i=0; i<w; i++) {
-      for (int j=0; j<h; j++) {
+    for (int i = 0; i < w; i++) {
+      for (int j = 0; j < h; j++) {
         Color c1 = pics[0].getPixel(i, j);
         Color c2 = pics[1].getPixel(i, j);
-        int red = (int) (c1.getRed()*weight+c2.getRed()*(1-weight));
-        int green = (int) (c1.getGreen()*weight+c2.getGreen()*(1-weight));
-        int blue = (int) (c1.getBlue()*weight+c2.getBlue()*(1-weight));
-        Color color =  new Color(red, green, blue);
-        out.setPixel(i,j, color);
+        int red = (int) (c1.getRed() * weight + c2.getRed() * (1 - weight));
+        int green = (int) (c1.getGreen() * weight + c2.getGreen() * (1 - weight));
+        int blue = (int) (c1.getBlue() * weight + c2.getBlue() * (1 - weight));
+        Color color = new Color(red, green, blue);
+        out.setPixel(i, j, color);
       }
 
     }
@@ -223,9 +223,5 @@ public class Process {
     picture = out;
 
   }
-
-
-
-
-
+  
 }
